@@ -1,0 +1,26 @@
+body{
+    background: #333;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+
+}
+section{
+ display block;
+ max-width: 1000px;
+ max-height: 800px;
+ background: #2C3D51;
+ margin: 0 auto 1em;
+ /*position: relative;*/
+}
+
+h1{
+font-size: 100px;
+  color: #36D0E3;
+  text-align: center;
+}
+
+header{
+
+}
