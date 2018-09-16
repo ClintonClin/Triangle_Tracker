@@ -21,7 +21,23 @@ font-size: 100px;
   text-align: center;
 }
 
-secondheader{
-  
+h2.secondheader{
+  font-size: 90px;
+  text-align: center;
+  color: #06F3E7
 
+
+}
+p.message{
+  color: #F3063B;
+  text-align: center;
+}
+
+form.name{
+  color: #09F345;
+  text-align: center;
+}
+
+input.style{
+  margin-right: 100px;
 }
