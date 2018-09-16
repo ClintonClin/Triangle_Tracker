@@ -32,23 +32,23 @@
                   document.getElementById('message').innerHTML = "Your triangle is an EQUILATERAL";
                   }
 
-                    else if(side1+side2<=side3 || side1+side3<=side2 || side2+side3<=side1){
+                  else if(side1+side2<=side3 || side1+side3<=side2 || side2+side3<=side1){
 
-            document.getElementById('message').innerHTML="NOT TRIANGLE";
+                    document.getElementById('message').innerHTML="NOT TRIANGLE";
             }
 
-              else if(side1==side2 || side2==side3 || side1==side3){
+                  else if(side1==side2 || side2==side3 || side1==side3){
 
-              document.getElementById('message').innerHTML="this is an is an isosceles triangle";
-            }
-            else if(side1!==side2!==side3){
-
-            document.getElementById('message').innerHTML="this is a scalene triangle";
+                    document.getElementById('message').innerHTML="This is an is an ISOSCELES triangle";
             }
 
-                else  {
-                      text="enter values";
-                      document.getElementById('message').innerHTML="enter valid values";
+                  else if(side1!==side2!==side3){
+
+                    document.getElementById('message').innerHTML="This is a SCALENE triangle";
+            }
+
+                  else  {
+                    document.getElementById('message').innerHTML="Enter valid values";
                     }
 
             }
