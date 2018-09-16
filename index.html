@@ -32,16 +32,16 @@
                   document.getElementById('message').innerHTML = "Your triangle is an EQUILATERAL";
                   }
 
-                    else if(side1+side2<=side3 || side1+side3<=sideB || side2+side3<=sideA){
+                    else if(side1+side2<=side3 || side1+side3<=side2 || side2+side3<=side1){
 
             document.getElementById('message').innerHTML="NOT TRIANGLE";
             }
 
-              else if(sideA==sideB || sideB==sideC || sideA==sideC){
+              else if(side1==side2 || side2==side3 || side1==side3){
 
               document.getElementById('message').innerHTML="this is an is an isosceles triangle";
             }
-            else if(sideA!==sideB!==sideC){
+            else if(side1!==side2!==side3){
 
             document.getElementById('message').innerHTML="this is a scalene triangle";
             }
