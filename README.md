@@ -9,9 +9,9 @@ The above project is a simple program for determining the nature of a triangle b
 
 
 ## breakdown of project
-> writing of the html code to displayed by browser. Did this first since its easy and fast.
-> wrote css code for styling my html code written earlier
-> wrote my javascript code the last since it was complicated and time consuming. Had to break it down to functions anf then
+ writing of the html code to displayed by browser. Did this first since its easy and fast.
+ wrote css code for styling my html code written earlier
+ wrote my javascript code the last since it was complicated and time consuming. Had to break it down to functions anf then
  using if else statements to around the program which in return works perfectly.
  
  ## Link to github pages
