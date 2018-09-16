@@ -4,6 +4,7 @@ body{
     margin: 0;
     padding: 0;
     font-size: 50px;
+    font-family: 'Dosis', sans-serif;
 
 }
 section{
@@ -16,7 +17,7 @@ section{
 }
 
 h1{
-font-size: 100px;
+font-size: 150px;
   color: #36D0E3;
   text-align: center;
 }
