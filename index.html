@@ -35,12 +35,18 @@
 
             if(side1==side2 && side2==side3 && side1==side3)
             {
-              text= "Your triangle is an equilateral";
-            //  document.getElementById.("message").innerHTML = text;
+            document.getElementById('message').innerHTML = "Your triangle is an EQUILATERAL";
             }
-              else{
+
+              else if(side1+side2<=side3 || side1+side3<=sideB || side2+side3<=sideA){
+
+						document.getElementById('message').innerHTML="NOT TRIANGLE";
+      }
+      
+
+          else  {
                 text="enter values";
-                document.getElementById('message').innerHTML="enter values";
+                document.getElementById('message').innerHTML="enter valid values";
               }
 
   }
