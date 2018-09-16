@@ -21,7 +21,7 @@ The above project is a simple program for determining the nature of a triangle b
  ## Link to github pages
  ### https://clintonclin.github.io/Triangle_Tracker/
 
-## Lincense and cpyright
+## Lincense and copyright
 
 MIT License
 
