@@ -7,20 +7,20 @@
    <body>
       <h1 class="header"><strong>TRIANGLE TRACKER</strong></h1>
       <section>
-         <h2 class="secondheader">Enter values of your triangle</h2>
-         <form name>
-            value1:<input type="text" id="value1"/>
+         <h2 class="secondheader">Enter values of your Triangle</h2>
+         <form class="name">
+            First value:<input type="text" id="value1"/>
             <br>
             <br>
-            value2:<input type="text" id="value2"/>
+            Second value:<input type="text" id="value2"/>
             <br>
             <br>
-            value3:<input type="text" id="value3"/>
+            Third value:<input type="text" id="value3"/>
             <br>
             <br>
-            <input type="button" onclick="triangle()" value="submit"/>
+            <input class="style" type="button" onclick="triangle()" value="submit"/>
          </form>
-         <p id="message"></p>
+         <p class="message" id="message"></p>
          <script type="text/javascript">
             function triangle(){
               var side1 = (parseInt(document.getElementById("value1").value));
