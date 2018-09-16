@@ -9,10 +9,15 @@ The above project is a simple program for determining the nature of a triangle b
 
 
 ## breakdown of project
- writing of the html code to displayed by browser. Did this first since its easy and fast.
- wrote css code for styling my html code written earlier
- wrote my javascript code the last since it was complicated and time consuming. Had to break it down to functions anf then
- using if else statements to around the program which in return works perfectly.
+ writing of the html code to displayed by browser. Did this first since its easy and fast.<br/>
+ Inputs: value1, value2, value3
+ 
+ output: Category of triangle
+ wrote css code for styling my html code written earlier<br/>
+ wrote my javascript code the last since it was complicated and time consuming. Had to break it down to functions and then
+ using if else statements to around the program which in return works perfectly.<br/>
+ inputs: value1, value2, value3
+ output: if triangle is either equilateral, isosceles, scalene or not triangle
  
  ## Link to github pages
  ### https://clintonclin.github.io/Triangle_Tracker/
